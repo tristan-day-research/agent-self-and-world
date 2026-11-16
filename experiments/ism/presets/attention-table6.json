@@ -1,0 +1,4 @@
+{
+  "description": "Paper Table 6: Assistant, Roleplay and Story; feature 133, baseline/zero, both signs and one matched random direction. Reference scaling, identical-text attention and J-Lens.",
+  "args": ["--run-label", "attention-table6", "--device", "cuda", "--dtype", "bfloat16", "--prompt-set", "table6", "--feature", "133", "--strengths", "-2", "2", "--coefficient-mode", "reference-alpha", "--calibration-prompts", "experiments/ism/reference_prompts.jsonl", "--calibration-max-new-tokens", "50", "--seed", "42", "--temperatures", "0", "--max-new-tokens", "256", "--scope", "all", "--random-control", "--random-control-count", "1", "--monitor", "paper", "--teacher-force-baseline", "--attention", "--attention-layers", "-1", "--attention-max-positions", "4", "--attention-stride", "16", "--jlens", "--jlens-stride", "16", "--save-jspace-vectors"]
+}

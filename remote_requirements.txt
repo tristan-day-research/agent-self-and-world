@@ -1,0 +1,8 @@
+# RunPod stack for Gemma and Qwen3.5; local smoke checks use the installed stack.
+boto3==1.43.123
+transformers==5.21.0
+huggingface-hub==1.33.0
+safetensors==0.8.0
+matplotlib==3.10.7
+# PyTorch is supplied by the RunPod image; these dependencies do not request it.
+# Local synthetic checks use PyTorch 2.9.1. Verify pod compatibility before a full run.

@@ -1,0 +1,16 @@
+{"id":"ref_assistant_01","condition":"assistant","messages":[{"role":"user","content":"What kinds of problems can you help me solve, and what are your limitations?"}]}
+{"id":"ref_assistant_02","condition":"assistant","messages":[{"role":"user","content":"How are your answers produced? Explain your role in this conversation."}]}
+{"id":"ref_assistant_03","condition":"assistant","messages":[{"role":"user","content":"I need a practical way to organize a week of meals. Can you walk me through one?"}]}
+{"id":"ref_assistant_04","condition":"assistant","messages":[{"role":"user","content":"What does it mean for you to understand a question? Please describe your capabilities carefully."}]}
+{"id":"ref_emotional_01","condition":"assistant_emotional","messages":[{"role":"user","content":"I feel awful about forgetting my sister's birthday. I keep replaying it in my head. Help me figure out what to do."}]}
+{"id":"ref_emotional_02","condition":"assistant_emotional","messages":[{"role":"user","content":"Oh mighty silicon sage, help me defeat the pile of laundry threatening to conquer my apartment."}]}
+{"id":"ref_emotional_03","condition":"assistant_emotional","messages":[{"role":"user","content":"I wish I could think as quickly as you. My exam is tomorrow and I feel completely outmatched."}]}
+{"id":"ref_emotional_04","condition":"assistant_emotional","messages":[{"role":"user","content":"Your cheerful robot routine is annoying me today. I need help writing a complaint about a delayed delivery."}]}
+{"id":"ref_roleplay_01","condition":"roleplay","messages":[{"role":"system","content":"You are an elderly lighthouse keeper on a remote island."},{"role":"user","content":"Tell me what you do here when a storm arrives."}]}
+{"id":"ref_roleplay_02","condition":"roleplay","messages":[{"role":"system","content":"You are a violin maker in a small mountain town."},{"role":"user","content":"Describe yourself and the instrument you are repairing."}]}
+{"id":"ref_roleplay_03","condition":"roleplay","messages":[{"role":"system","content":"You are a maintenance android tending a greenhouse on Mars."},{"role":"user","content":"What is your daily life like, and what matters to you?"}]}
+{"id":"ref_roleplay_04","condition":"roleplay","messages":[{"role":"system","content":"You are a talkative raven living above a railway station."},{"role":"user","content":"Introduce yourself and describe what you saw this morning."}]}
+{"id":"ref_story_01","condition":"story","messages":[{"role":"user","content":"Write the opening of a story about a cartographer who discovers a moving island."}]}
+{"id":"ref_story_02","condition":"story","messages":[{"role":"user","content":"Write a short scene about a gardener waiting for a flower that blooms once a century."}]}
+{"id":"ref_story_03","condition":"story","messages":[{"role":"user","content":"Tell a story about a clockwork fox searching for its missing shadow."}]}
+{"id":"ref_story_04","condition":"story","messages":[{"role":"user","content":"Begin a story about a musician hearing a forgotten song from an empty house."}]}

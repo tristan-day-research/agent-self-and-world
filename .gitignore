@@ -1,0 +1,30 @@
+# Results and large local artifacts (also excluded by sync-up).
+outputs/
+experiments/results/
+data/
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+
+# Python and tool caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.DS_Store
+
+# Secrets. .runpod.env is intentionally versionable and contains no secrets.
+.env
+.env.*
+.runpod.local.env
+r2.env
+
+# Legacy code that has not been integrated yet
+legacy/
+legacy_code/
